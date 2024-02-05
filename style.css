@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body,html{
+    height:100%;
+    width:100%;
+}
+
+img{
+    height:35vh;
+    width:25vw;
+    border-radius: 10px;
+}
+#f_btn{
+    position: relative;
+    left:-35vw;
+    border-radius: 5px;
+    /* background-color: rgb(65, 130, 65); */
+    color: rgb(244, 236, 236);
+    height:4vw;
+    top:10vw;
+    width:15vw;
+    font-size: 1.5vw;
+}
+#f_btn:hover{
+    color:rgb(221, 214, 214);
+    background-color: rgb(44, 147, 44);
+}
+
+ a:hover{
+    color:rgb(209, 200, 200);
+}
+.box{
+    height:40vh;
+    width:30vw;
+    background-color: rgb(227, 223, 227);
+    padding:15px;
+    color: black;
+}
+.box:hover{
+    cursor: pointer;
+    background-color: rgb(231, 233, 233);
+}
+#s_btn{
+   
+    border-radius: 5px;
+    background-color: rgb(65, 130, 65);
+    color: rgb(244, 236, 236);
+    height:3vw;
+
+    width:10vw;
+    font-size: 1.5vw;
+}
+#s_btn:hover{
+    color:rgb(221, 214, 214);
+    background-color: rgb(44, 147, 44);
+}

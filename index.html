@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailWind CSS Responsiv Page </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="h-full" id="first_page">
+        <nav class="flex justify-between bg-green-700 font-mono text-3xl text-red-50 h-12 text">
+            <h1> Landing Page </h1>
+            <div class="flex">
+                <ul class="flex">
+                    <li> <a href="#first_page" class="p-5"> Home </a></li>
+                    <li> <a href="#about" class="p-5"> About </a></li>
+                    <li> <a href="#contact" class="p-5"> Sign UP </a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="flex justify-between m-16">
+            <h1 class="text-7xl text-green-700"> Geeks For Geeks </h1>
+            <button id="f_btn" class="bg-green-700"> Explore Me </button>
+            <img src=
+            "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220401124017/HTML-Tutorial.png">
+        </div>
+        <div class="h-3/5 text-green-700" id="about">
+            <h1 class="text-center text-5xl"> Courses </h1>
+            <div class="flex justify-around p-10">
+                <div class="box">
+                    <h1 class="text-4xl text-center p-3"> DSA </h1>
+                    <p class="text-center p-5 text-lg"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                        animi delectus laborum
+                        Officiis!</p>
+                </div>
+                <div class="box">
+                    <h1 class="text-4xl text-center p-3"> HTML </h1>
+                    <p class="text-center p-5 text-lg"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                        animi delectus laborum
+                         Officiis!</p>
+                </div>
+                <div class="box">
+                    <h1 class="text-4xl text-center p-3"> JAVASCRIPT </h1>
+                    <p class="text-center p-5 text-lg"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                        animi delectus laborum
+                        Officiis!</p>
+                </div>
+            </div>
+        </div>
+        <div class="h-full bg-slate-200">
+            <h1 class="text-center text-5xl text-green-700"> Sign Up </h1>
+            <div class="flex m-16" id="contact">
+                <div class="w-6/12 text-3xl">
+                    <label for=""> Your Name </label> <br>
+                    <input type="text" placeholder="Enter Your Name Here" class="rounded-lg"> <br><br>
+                    <label for=""> Your Email </label> <br>
+                    <input type="text" placeholder="Enter Your Email Here" class="rounded-lg"> <br><br>
+                    <label for=""> Your Password </label> <br>
+                    <input type="password" placeholder="Enter Your Password" class="rounded-lg"> <br><br>
+                    <button id="s_btn"> Sign up </button>
+                </div>
+                <div class="w-5/12">
+                    <h1 class="text-4xl text-center p-3 text-green-700"> Contact Us </h1>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. A quas natus enim dolore repudiandae
+                        adipisci voluptatibus aspernatur! Dignissimos minus, eos illum debitis, eligendi consectetur
+                        explicabo facere nisi magni quis voluptatibus?</p>
+                    <h1 class="text-4xl text-center p-3 text-green-700"> More Information </h1>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi libero minus, dicta quam deleniti
+                        sunt quidem, eius ea debitis nulla quibusdam animi sit vitae doloremque dolorum itaque tempore
+                        iusto neque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo assumenda,
+                        excepturi, obcaecati optio quae, distinctio id sapiente necessitatibus asperiores neque
+                        quibusdam minus. Delectus laborum odit, veritatis voluptatibus ipsum nisi perferendis </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+<script src="script.js"></script>
+
+</html>
